@@ -15,7 +15,7 @@ pub extern "C" fn _start() -> ! {
 
 #[macro_use]
 mod mac;
-
+mod aux;
 mod fmt;
 mod net;
 mod sys;
